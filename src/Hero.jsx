@@ -173,7 +173,7 @@ export default function Hero(){
 
  return(
     <>
-    <div className='h-[calc(100%-10rem)] w-[calc(100%-4rem)] md:h-full md:w-full  sm:ml-16 ml-2 flex mb-12 lg:mb-24'>
+    <div className='h-[calc(100%-10rem)] w-[calc(100%-4rem)] md:h-full md:w-full  sm:ml-16 ml-2 flex mb-12 md:mb-48 lg:mb-48 xl:mb-48'>
     {/* sm:bg-red-600 md:bg-green-400 lg:bg-orange-400 xl:bg-slate-500 */}
      <div className=' hero_left h-1/2  xl:w-2/5  w-full sm:w-3/5 sm:justify-center  flex  flex-col justify-between sm:mt-32 mt-16 gap-5 '>
       <div className="hero_text_first flex  flex-col justify-between gap-5 ">
@@ -215,7 +215,7 @@ Digital Agency.</p>
      </div>
       
      <div className='md:justify-center  hidden h-full md:mt-16 w-3/5  md:h-96  relative mt-4 ml-4 md:flex flex-row'>
-     <div className="hidden lg:block hero_browser mockup-browser border bg-base-300 lg:h-[calc(100%+4rem)] lg:w-[calc(100%-2rem)] xl:h-[32rem] xl:w-[40rem] w-[calc(100%-8rem)] xl:mr-40 lg:ml-8  z-10 relative xl:left-28" data-scroll-speed="2">
+     <div className="hidden lg:block hero_browser mockup-browser border bg-base-300 lg:h-[calc(100%+8rem)] lg:w-[calc(100%+8rem)] xl:h-[36rem] xl:w-[44rem] w-[calc(100%-8rem)] xl:mr-40 lg:ml-8  z-10 relative xl:left-28" data-scroll-speed="2">
         <div className="mockup-browser-toolbar">
           <div className="input">https://client.dash</div>
         </div>
@@ -225,7 +225,7 @@ Digital Agency.</p>
      </div>
      
       {/* <div className=' bg-slate-800 hero_phone h-5/6 w-72 relative bg-transparent z-20 ml-4 left-0'> */}
-      <img className='h-full md:h-[30rem] bottom-10 xl:h-[30rem] lg:h-[30rem]  lg:-top-10 shadow-xl  rounded-[24px] md:relative lg:absolute object-fill z-10 left-0' src={Galileomb}/>
+      <img className='h-full md:h-[30rem] bottom-10 xl:h-[32rem] lg:h-[30rem]  lg:-top-10 shadow-xl  rounded-[24px] md:relative lg:absolute object-fill z-10 left-0' src={Galileomb}/>
       {/* <p className="absolute left-10">ddd</p> */}
       {/* </div>  */}
      </div>
